@@ -1,0 +1,93 @@
+/*---------------------------------------*/
+/* 按钮样式*/
+.btn
+{
+    /*圆角*/
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    /*轮廓*/
+    outline: none;
+    color: #444444;
+    text-decoration: blink;
+    /*字间距*/
+    letter-spacing: 2px;
+    /*粗细*/
+    font-weight: 500px;
+    font-size: 15px;
+}
+/*点击链接时周围的虚线框*/
+a .btn:focus
+{
+    outline: none;
+}
+
+
+.btn-1
+{
+    color: #e5e5e5;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin:0 15px 20px 0;
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-1:hover
+{
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+
+}
+
+.htn-1:valid
+{
+    color: #e5e5e5;
+    background-color: transparent;
+}
+
+.btn-2
+{
+    background: white;
+    border: 0px solid transparent;
+    font-family: SimSun;
+    margin:20px 0 50px 0;
+    font-style: italic;
+    color: #101010;
+    font-size: 19px;
+}
+.btn-2:hover
+{
+    color:#333;
+    border:0px solid  white;
+    background: white;
+    border-radius: 3px;
+}
+
+.btn-3
+{
+    background: #6ECADC;
+    margin: 20px 0 10px 0;
+    border: 0px solid transparent;
+    font-size:25px;
+}
+.btn-3:hover
+{
+    color:#333;
+    border:0px solid #6ECADC;
+    background:#101010;
+}
+
+.btn-4
+{
+    background: #555;
+    border: 1px solid transparent;
+    font-size:18px;
+}
+.btn-4:hover
+{
+    color:#aaa;
+    border:1px solid #555;
+    background:#101010;
+    text-shadow: none;
+}

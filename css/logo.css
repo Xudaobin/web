@@ -1,0 +1,356 @@
+.o-container
+{
+
+    margin: 190px auto 70px auto;
+    padding: 0 12px;
+    max-width: 960px;
+}
+@media all and (min-width: 480px)
+{
+    .o-container{
+        padding: 0 24px;
+    }
+}
+@media all and (min-width: 720px)
+{
+    .o-container{
+        padding: 0 48px;
+    }
+}
+.o-container
+{
+
+    padding:0 48px;
+}
+.c-slack
+{
+    position: relative;
+    z-index: 100;
+    margin: 70px auto;
+    width: 96px;
+    height: 96px;
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    -ms-transform: rotateX(-45deg);
+    transform: rotate(-45deg);
+}
+
+.c-slack__dot
+{
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    min-blend-mode: hard-light;
+}
+
+.c-slack__dot--a
+{
+    top: 0px;
+    left: 0px;
+    background-color: darkviolet;
+    -webkit-transform: translateX(18px);
+    -moz-transform: translateX(18px);
+    transform: translateX(18px);
+    -webkit-animation: slack-animation--a 2s infinite;
+    animation: slack-animation--a 2s infinite;
+}
+.c-slack__dot--b
+{
+    top: 0px;
+    right: 0px;
+    background-color: green;
+    -webkit-transform: translateY(18px);
+    -moz-transform: translateY(18px);
+    -webkit-animation:slack-animation--b 2s infinite;
+    animation:slack-animation--b 2s infinite
+}
+.c-slack__dot--c
+{
+    bottom: 0px;
+    right: 0px;
+    background-color: #e5e5e5;
+    -webkit-transform:translateX(-18px);
+    -ms-transform:translateX(-18px);
+    transform:translateX(-18px);
+    -webkit-animation:slack-animation--c 2s infinite;
+    animation:slack-animation--c 2s infinite
+}
+.c-slack__dot--d
+{
+    bottom: 0px;
+    left: 0px;
+    background-color: #0f0f0f;
+    -webkit-transform:translateY(-18px);
+    -ms-transform:translateY(-18px);
+    transform:translateY(-18px);
+    -webkit-animation:slack-animation--d 2s infinite;
+    animation:slack-animation--d 2s infinite
+}
+@-webkit-keyframes slack-animation--a
+{
+    0%
+    {
+        top: 0px;
+        bottom: auto;
+        height: 18px;
+    }
+    33%
+    {
+        top: 0px;
+        bottom: auto;
+        height: 96px;
+    }
+    34%
+    {
+        top: auto;
+        bottom: 0px;
+        height: 96px;
+    }
+    66%
+    {
+        top: auto;
+        bottom: 0px;
+        height: 18px;
+    }
+    100%
+    {
+        top: auto;
+        bottom: 78px;
+        height: 18px;
+    }
+}
+
+@keyframes slack-animation--a
+{
+    0%
+    {
+        top: 0px;
+        bottom: auto;
+        height: 18px;
+    }
+    33%
+    {
+        top: 0px;
+        bottom: auto;
+        height: 96px;
+    }
+    34%
+    {
+        top: auto;
+        bottom: 0px;
+        height: 96px;
+    }
+    66%
+    {
+        top: auto;
+        bottom: 0px;
+        height: 18px;
+    }
+    100%
+    {
+        top: auto;
+        bottom: 78px;
+        height: 18px;
+    }
+}
+@-webkit-keyframes slack-animation--b
+{
+    0%
+    {
+        right: 0px;
+        left: auto;
+        width: 18px;
+    }
+    33%
+    {
+        right: 0px;
+        left: auto;
+        width: 96px;
+    }
+    34%
+    {
+        right: auto;
+        left: 0px;
+        width: 96px;
+    }
+    66%
+    {
+        right: auto;
+        left: 0px;
+        width: 18px;
+    }
+    100%
+    {
+        right: auto;
+        left: 78px;
+        width: 18px;
+    }
+}
+@keyframes slack-animation--b
+{
+    0%
+    {
+        right: 0px;
+        left: auto;
+        width: 18px;
+    }
+    33%
+    {
+        right: 0px;
+        left: auto;
+        width: 96px;
+    }
+    34%
+    {
+        right: auto;
+        left: 0px;
+        width: 96px;
+    }
+    66%
+    {
+        right: auto;
+        left: 0px;
+        width: 18px;
+    }
+    100%
+    {
+        right: auto;
+        left: 78px;
+        width: 18px;
+    }
+}
+@-webkit-keyframes slack-animation--c {
+    0%
+    {
+        bottom: 0px;
+        top: auto;
+        height: 18px;
+    }
+    33%
+    {
+        bottom: 0px;
+        top: auto;
+        height: 96px;
+    }
+    34%
+    {
+        bottom: auto;
+        top: 0px;
+        height: 96px;
+    }
+    66%
+    {
+        bottom: auto;
+        top: 0px;
+        height: 18px;
+
+    }
+    100%
+    {
+        bottom: auto;
+        top: 78px;
+        height: 18px;
+    }
+}
+@keyframes slack-animation--c
+{
+    0%
+    {
+        bottom: 0px;
+        top: auto;
+        height: 18px;
+    }
+    33%
+    {
+        bottom: 0px;
+        top: auto;
+        height: 96px;
+    }
+    34%
+    {
+        bottom: auto;
+        top: 0px;
+        height: 96px;
+    }
+    66%
+    {
+        bottom: auto;
+        top: 0px;
+        height: 18px;
+
+    }
+    100%
+    {
+        bottom: auto;
+        top: 78px;
+        height: 18px;
+    }
+}
+@-webkit-keyframes slack-animation--d
+{
+    0%
+    {
+        left:0;
+        right:auto;
+        width:18px
+    }
+    33%
+    {
+        left:0;
+        right:auto;
+        width:96px
+    }
+    34%
+    {
+        left:auto;
+        right:0;
+        width:96px
+    }
+    66%
+    {
+        left:auto;
+        right:0;
+        width:18px
+    }
+    100%
+    {
+        left:auto;
+        right:78px;
+        width:18px
+    }
+}
+@keyframes slack-animation--d
+{
+    0%
+    {
+        left:0;
+        right:auto;
+        width:18px
+    }
+    33%
+    {
+        left:0;
+        right:auto;
+        width:96px
+    }
+    34%
+    {
+        left:auto;
+        right:0;
+        width:96px
+    }
+    66%
+    {
+        left:auto;
+        right:0;
+        width:18px
+    }
+    100%
+    {
+        left:auto;
+        right:78px;
+        width:18px
+    }
+}
